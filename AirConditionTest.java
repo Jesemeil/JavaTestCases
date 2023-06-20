@@ -57,7 +57,7 @@ public class AirConditionTest {
     }
 
     @Test
-    public void testThatAirConditionRemains16WhenDecreased () {
+    public void testThatAirConditionTemperatureRemains16WhenDecreased () {
         AirCondition myAc = new AirCondition();
         myAc.setTemperature(16);
         assertEquals(16, myAc.getTemperature());
